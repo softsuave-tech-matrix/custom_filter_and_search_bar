@@ -43,7 +43,7 @@ Pod::Spec.new do |spec|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  spec.license      = { :type => 'MIT', :file => 'LICENSE.txt' }
+  spec.license      = { :type => 'MIT', :file => 'LICENSE' }
  
 
 
@@ -98,7 +98,6 @@ Pod::Spec.new do |spec|
   #
 
   spec.source_files  = "Sources/custom_filter_and_search_bar/**/*"
-  spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
 
