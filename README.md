@@ -1,5 +1,5 @@
 # custom_filter_and_search_bar
-AdvancedSearchBar is a library that allows users to create a customised search bar with an inbuilt filter functionality. The library allows the user to create a customised search bar and filter the data according to the text typed in the search bar and the filters selected . 
+custom_filter_and_search_bar is a library that allows users to create a customised search bar with an inbuilt filter functionality. The library allows the user to filter the data according to the text typed in the search bar and the filters selected . 
 
 ## Features
 - Allows user to filter data based on the search text
@@ -36,9 +36,9 @@ AdvancedSearchBar is a library that allows users to create a customised search b
 
 ## Installation
 - Add the package through swift package manager to your project
-- Alternatively you can also install through cocoapods
+- Alternatively you can also install through cocoapods (pod custom_filter_and_search_bar)
 
-## useage
+## Useage
 
 - Add the required properties to the search bar
 - ‘array’ is the data which needs to filtered
@@ -47,11 +47,16 @@ AdvancedSearchBar is a library that allows users to create a customised search b
 - ‘text’ in the below example represents the text entered in the search bar
 - ‘filterOptions’ is a key value pair of the types of filters 
 
-<img width="232" alt="Screenshot 2024-08-20 at 6 30 03 PM" src="https://github.com/user-attachments/assets/b25b272a-
+
+<img width="230" alt="Screenshot 2024-08-20 at 6 36 59 PM" src="https://github.com/user-attachments/assets/bb2c48ba-c798-47d5-9cb6-ce03b8974c85">
+
 <img width="224" alt="Screenshot 2024-08-20 at 6 30 46 PM" src="https://github.com/user-attachments/assets/705e7dcc-5d03-48fb-9041-de4dcfb157fa">
-105a-4474-8692-59df10cc3d73">
+
 <img width="218" alt="Screenshot 2024-08-20 at 6 31 27 PM" src="https://github.com/user-attachments/assets/189f2c71-65bd-4616-936b-f5c4087a6537">
+
 <img width="219" alt="Screenshot 2024-08-20 at 6 32 13 PM" src="https://github.com/user-attachments/assets/cbd19741-9cf7-4faa-a009-dfbba6e43773">
+
+
 
 ```swift
 import SwiftUI
@@ -94,7 +99,7 @@ struct ContentView: View {
 
 - Sample structure of the array of data which has to be filtered
 
-``` 
+```swift
 import Foundation
 
 
@@ -178,5 +183,20 @@ let persons: [Person] = [
     Person(name: "Brandon Baker", first_name: "Brandon", last_name: "Baker", phone_number: 4567890123, banks: [bank1, bank2, bank3, bank4])
 ]
 
-
  ```
+
+## Contributing
+
+Contributions are always welcome! For major changes, please open an issue first
+to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
+
+## Author
+
+- [@softsuave-tech-matrix](https://github.com/softsuave-tech-matrix)
+
+## Feedback
+
+If you have any feedback, please reach out to us at techmatrix@softsuave.com
+
