@@ -47,13 +47,15 @@ AdvancedSearchBar is a library that allows users to create a customised search b
 - ‘text’ in the below example represents the text entered in the search bar
 - ‘filterOptions’ is a key value pair of the types of filters 
 
-Simulator Screenshot - iPhone 15 Pro - 2024-08-14 at 19.06.30.png
+![Simulator Screenshot - iPhone 15 Pro - 2024-08-14 at 19 06 30](https://github.com/user-attachments/assets/499b57ba-b99a-4f1a-986c-e011edd22f3d)
 
-Simulator Screenshot - iPhone 15 Pro - 2024-08-14 at 19.07.12.png
+![Simulator Screenshot - iPhone 15 Pro - 2024-08-14 at 19 07 12](https://github.com/user-attachments/assets/f11ece82-43b9-4496-9dd6-1e24370c325f)
 
-Simulator Screenshot - iPhone 15 Pro - 2024-08-14 at 19.07.45.png
+![Simulator Screenshot - iPhone 15 Pro - 2024-08-14 at 19 07 45](https://github.com/user-attachments/assets/4d9977bc-e3c2-4d9b-9488-cececf96bd72)
 
-Simulator Screenshot - iPhone 15 Pro - 2024-08-14 at 19.08.07.png
+![Simulator Screenshot - iPhone 15 Pro - 2024-08-14 at 19 08 07](https://github.com/user-attachments/assets/c4a407b6-e473-41fc-adc5-36a892164c02)
+
+
 
 ```swift
 import SwiftUI
