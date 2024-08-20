@@ -47,15 +47,11 @@ AdvancedSearchBar is a library that allows users to create a customised search b
 - ‘text’ in the below example represents the text entered in the search bar
 - ‘filterOptions’ is a key value pair of the types of filters 
 
-![Simulator Screenshot - iPhone 15 Pro - 2024-08-14 at 19 06 30](https://github.com/user-attachments/assets/499b57ba-b99a-4f1a-986c-e011edd22f3d)
-
-![Simulator Screenshot - iPhone 15 Pro - 2024-08-14 at 19 07 12](https://github.com/user-attachments/assets/f11ece82-43b9-4496-9dd6-1e24370c325f)
-
-![Simulator Screenshot - iPhone 15 Pro - 2024-08-14 at 19 07 45](https://github.com/user-attachments/assets/4d9977bc-e3c2-4d9b-9488-cececf96bd72)
-
-![Simulator Screenshot - iPhone 15 Pro - 2024-08-14 at 19 08 07](https://github.com/user-attachments/assets/c4a407b6-e473-41fc-adc5-36a892164c02)
-
-
+<img width="232" alt="Screenshot 2024-08-20 at 6 30 03 PM" src="https://github.com/user-attachments/assets/b25b272a-
+<img width="224" alt="Screenshot 2024-08-20 at 6 30 46 PM" src="https://github.com/user-attachments/assets/705e7dcc-5d03-48fb-9041-de4dcfb157fa">
+105a-4474-8692-59df10cc3d73">
+<img width="218" alt="Screenshot 2024-08-20 at 6 31 27 PM" src="https://github.com/user-attachments/assets/189f2c71-65bd-4616-936b-f5c4087a6537">
+<img width="219" alt="Screenshot 2024-08-20 at 6 32 13 PM" src="https://github.com/user-attachments/assets/cbd19741-9cf7-4faa-a009-dfbba6e43773">
 
 ```swift
 import SwiftUI
