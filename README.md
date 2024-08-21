@@ -60,7 +60,7 @@ custom_filter_and_search_bar is a library that allows users to create a customis
 
 ```swift
 import SwiftUI
-import SearchBarLibrary
+import custom_filter_and_search_bar
 
 struct ContentView: View {
     
@@ -184,6 +184,43 @@ let persons: [Person] = [
 ]
 
  ```
+- Sample cells which displays the filtered array according to the change in the search text or the filters selected
+
+```swift
+import SwiftUI
+
+struct CellView: View {
+    var persons: [Person]
+    var body: some View {
+        List(persons, id: \.self) { item in
+            VStack(alignment: .leading) {
+                Text(item.name)
+                    .font(.title)
+                    .fontWeight(.semibold)
+                
+                Text("Phone: \(item.phone_number)".replacingOccurrences(of: ",", with: ""))
+                    .font(.caption)
+                    .fontWeight(.medium)
+                
+                HStack {
+                    VStack(alignment: .leading) {
+                        Text("Banks:")
+                            .font(.subheadline)
+                            .fontWeight(.bold)
+                            .underline()
+                        ForEach(item.banks, id: \.self) { bank in
+                            Text("\(bank.name) -> \(bank.cards.map { $0.name }.joined(separator: ", "))")
+                                .font(.caption)
+                                .fontWeight(.semibold)
+                        }
+                    }
+                }
+            }
+        }
+        .listStyle(.plain)
+    }
+}
+```
 
 ## Contributing
 
